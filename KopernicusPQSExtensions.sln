@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KopernicusPQSExtensions", "KopernicusPQSExtensions\KopernicusPQSExtensions.csproj", "{726A0EC1-C85F-4C7D-8C88-955DE6C54D23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KopernicusPQSExtensions", "src\KopernicusPQSExtensions.csproj", "{726A0EC1-C85F-4C7D-8C88-955DE6C54D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1F4DBCE0-222C-414E-8BE6-305E1A82615F}
+		SolutionGuid = {EED8C545-BA9C-4452-97A1-7457108D27C8}
 	EndGlobalSection
 EndGlobal
