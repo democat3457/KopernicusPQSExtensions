@@ -57,7 +57,7 @@ namespace KopernicusPQSExtensions
         }
 
         // Token: 0x0400453B RID: 17723
-        public PQSMod_HeightColorMap.LandClass[] landClasses;
+        public PQSMod_HeightBiomeMap.LandClass[] landClasses;
 
         // Token: 0x0400453C RID: 17724
         public float blend;
