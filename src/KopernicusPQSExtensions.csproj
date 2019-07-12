@@ -17,10 +17,11 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <OutputPath>..\build\GameData\KopernicusPQSExtensions\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +30,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
@@ -56,6 +60,8 @@
     <Compile Include="HeightBiomeMap\HeightBiomeMap.cs" />
     <Compile Include="HeightBiomeMap\PQSMod_HeightBiomeMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VertexHeightSpike\PQSMod_VertexHeightSpike.cs" />
+    <Compile Include="VertexHeightSpike\VertexHeightSpike.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
